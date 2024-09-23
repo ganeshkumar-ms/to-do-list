@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Stack Your Task is a user-friendly web app for managing daily tasks in a stack format. Push and pop tasks as completed with ease.">
+    <meta name="keywords" content="task, stack, management, productivity">
+    <meta name="author" content="Priyanshu Baraiya">
+    <link rel="icon" type="image/png" href="Images/favicon.svg">
+    <link rel="manifest" href="site.webmanifest">
+    <title>Stack Your Task</title>
+</head>
+
+<body>
+    <!---------- Heading ---------->
+    <h1>
+        <span>
+            Stack Your Task
+            <span class="stacks">
+                <span class="stack"></span>
+                <span class="satck"></span>
+                <span class="stack"></span>
+                <span class="stack"></span>
+                <span class="stack"></span>
+            </span>
+        </span>
+        <!---------- Tooltip ---------->
+        <span class="tooltip">
+            <span class="tooltip-icon">i</span>
+            <span class="tooltiptext">
+                Stack Your Task is a user-friendly web app for managing daily tasks in a stack format. Push and pop
+                tasks as completed with ease. </span>
+        </span>
+    </h1>
+    <!---------- Doodle ---------->
+    <img src="Images/doodle.png" class="doodle"></img>
+
+    <!---------- Container ---------->
+    <div class="container">
+        <div class="top-div">
+            <input required="" type="text" id="task" placeholder="New Task...." autocomplete="off" autofocus="false" />
+            <button type="button" id="add-task" onclick="addTask()" title="Push Task">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 664 663">
+                    <path fill="none"
+                        d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                    </path>
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="33.67" stroke="#6c6c6c"
+                        d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                    </path>
+                </svg>
+            </button>
+            
+        </div>
+    </div>
+    <!---------- Footer ---------->
+    <div class="footer">
+        <p>Developed by <a href="https://www.linkedin.com/in/ganeshkumar-m-128a19259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Ganeshkumar M</a>
+    </div>
+</body>
+<script src="script.js">
+
+</script>
+
+</html>
